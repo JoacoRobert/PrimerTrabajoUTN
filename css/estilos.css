@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Header*/
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+}
+
+.texto-header {
+    display: flex;
+}
+
+.texto-header p{
+    color: #E62872;
+}
+
+.icn-header{
+    padding: 0px 10px 0px 0px;
+    color: #E62872;
+}
+
+.nav-header a{
+    color: black;
+    font-size: 15px;
+    padding: 0px 5px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.nav-header a:hover{
+    color: #E62872;
+}
+
+.btn-nav {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-nav a{
+    background-color: white;
+    border: 2px solid #E62872;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px 20px;
+    color: #E62872;
+}
+
+.btn-nav a:hover{
+    background-color: #E62872;
+    color: white;
+}
+
+.hero{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
