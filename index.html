@@ -214,6 +214,7 @@
         <section class="contacto" id="contacto">
 
             <h2 class="titulo-contacto">Contáctame</h2>
+            <p class="texto-contacto">Contáctame para hablar sobre tu proyecto y cómo puedo ayudarte a hacer realidad tu visión.</p>
 
             <form>
 
@@ -257,6 +258,15 @@
                         <textarea class="cuadros" name="" id="" cols="100" rows="15"></textarea>
                     </div>
 
+                    <div class="terminos">
+                        <input type="checkbox" name="terms" id="terms" onChange="enableSending()">
+                        <label for="terms">Acepto los términos</label>
+                    </div>
+
+                    <div class="boton-contacto">
+                        <button class="btn-contacto" type="submit"><a href="">Enviar</a></button>
+                    </div>
+                      
                 </div>
 
             </form>
@@ -266,30 +276,34 @@
     </main>
 
     <footer>
-        <div class="texto-header">
-            <a href=""><i class="bi bi-slack icn-header"></i><strong>PORTFOLIO.WEB</strong></a>
-        </div> 
-       
+        <div class="contenedor-footer">
+            <div class="texto-footer">
+                <a href=""><i class="bi bi-slack icn-footer"></i><strong>PORTFOLIO.WEB</strong></a>
+            </div> 
         
-        <nav class="nav-header">
-            <a href="#home"><strong>Home</strong></a>
-            <a href="#experiencia"><strong>Mi experiencia</strong></a>
-            <a href="#sobre-mi"><strong>Sobre Mí</strong></a>
-            <a href="#portfolio"><strong>Portfolio</strong></a>
-            <a href="#testimonios"><strong>Testimonios</strong></a>
-        </nav>
+            
+            <nav class="nav-footer">
+                <a href="#home"><strong>Home</strong></a>
+                <a href="#experiencia"><strong>Mi experiencia</strong></a>
+                <a href="#sobre-mi"><strong>Sobre Mí</strong></a>
+                <a href="#portfolio"><strong>Portfolio</strong></a>
+                <a href="#testimonios"><strong>Testimonios</strong></a>
+            </nav>
 
-        <div class="icono-footer">
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-linkedin"></i>
+            <div class="icono-footer">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
 
-        <div>
-            <p>Políticas de Privacidad</p>
-            <p>Terminos de Servicios</p>
-            <p>Configuración de Cookies</p>
+        <p class="linea-footer"></p>
+
+        <div class="legales-footer">
+            <a href="">Políticas de Privacidad</a>
+            <a href="">Terminos de Servicios</a>
+            <a href="">Configuración de Cookies</a>
         </div>
 
     </footer>
