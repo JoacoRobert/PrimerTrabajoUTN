@@ -722,6 +722,12 @@ footer{
     }
 }
 
+@media screen and (max-width:600px){
+    .titulo-portfolio{
+        padding-left: 45px;
+    }
+}
+
 
 
 
