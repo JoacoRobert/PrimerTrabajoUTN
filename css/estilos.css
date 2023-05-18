@@ -79,6 +79,10 @@ header{
     color: white;
 }
 
+.iconohamburguesa{
+    display: none;
+}
+
 /*Hero*/
 .hero{
     background-color: #F4FCFF;
@@ -112,8 +116,8 @@ header{
 
 .texto-hero2{
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .btn-hero{
@@ -564,11 +568,159 @@ footer{
 /*Responsive*/
 @media screen and (max-width:1200px) {
     .linea-footer{width: 89%;}
+    .texto-hero2{
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .btn-nav{display: none;}
 
+     nav{
+        display: none;
+    }
 
+    .iconohamburguesa{
+        display: flex;
+        font-size: 1.2rem;
+        color: black;
+    }
 
+    .texto-sobremi1, .texto-sobremi2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    .btn-nav{
+        display: none;}
+
+     nav{
+        display: none;
+    }
+
+    .iconohamburguesa{
+        display: flex;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .texto-sobremi1, .texto-sobremi2{
+        font-size: 16px;}
+
+     .hero{
+        height: 100vh;
+     }
+
+    .contenedor-hero{
+        display: block; 
+        text-align: center;
+    }
+
+    .img-hero{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .titulo-experiencia{
+        text-align: center;
+    }
+
+    .contenedor-experiencia{
+        display: block;
+    }
+
+    .caja2, .caja3, .caja4{
+        margin-left: 0px;
+        margin: 10px 0px;
+    }
+
+    .contenedor-sobremi{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-sobremi{
+        width: 90%;
+        padding-left: 25px;
+    }
+
+    .texto-sobremi{
+        text-align: center;
+        width: 80%;
+    }
+
+    .btn-portfolio{
+        display: none;
+    }
+
+    .portfolio-uno{
+        margin-top: 55px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-portfolio{
+        padding-left: 65px;
+    }
+
+    .contenedor-portfolio{
+        display: block;
+        align-items: center;
+    }
+
+    .tarjeta-1{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .titulo-testimonios{
+        text-align: center;
+    }
+
+    .contenedor-testimonios{
+        display: block;
+    }
+
+    .clientes{
+        width: 90%;
+    }
+
+    .contacto-datos{
+        display: block;
+    }
+
+    .contenedor-contacto{
+        width: 80%;
+    }
+
+    .columna1, .columna2{
+        width: 100%;
+    }
+
+    .contenedor-footer{
+        display: block;
+       text-align: center;
+    }
+
+    .icono-footer{
+        margin-top: 25px;
+    }
+
+    .icono-footer i{
+        font-size: 30px;
+    }
+
+    .legales-footer{
+        padding-left: 0px;
+        text-align: center;
+    }
+}
 
 
 
